@@ -6,9 +6,9 @@ Este repositorio contiene el código fuente completo del Trabajo Fin de Máster 
 
 ## 📁 Estructura del Código
 
-*   **`esp32/`**: Contiene el firmware para el ESP32-S3.
+*   **`esp32`**: Contiene el firmware para el ESP32-S3.
     *   `main.py`: Bucle principal y lógica de captura.
-*   **`servidor/`**: Contiene los scripts para el servidor VPS.
+*   **`servidor`**: Contiene los scripts para el servidor VPS.
     *   `monitor_cultivos.py`: Servidor Flask que recibe los datos e imagenes.
       
 ## ⚙️ Requisitos y Tecnologías
@@ -19,7 +19,7 @@ Este repositorio contiene el código fuente completo del Trabajo Fin de Máster 
 
 ## 🚀 Cómo Usarlo
 
-1.  Carga el firmware de la carpeta `esp32/` en tu placa ESP32-S3.
-2.  Despliega los scripts de la carpeta `servidor/` en tu VPS.
+1.  Carga el firmware del archivo `main.py` en tu placa ESP32-S3.
+2.  Despliega el script del archivo `monitor_cultivo.py` en tu VPS.
 3.  Ajusta las variables de configuración (IPs, credenciales) según tu entorno.
 4.  Ejecuta el script principal en el ESP32 para comenzar la captura y transmisión de datos.
