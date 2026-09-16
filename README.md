@@ -8,15 +8,9 @@ Este repositorio contiene el código fuente completo del Trabajo Fin de Máster 
 
 *   **`esp32/`**: Contiene el firmware para el ESP32-S3.
     *   `main.py`: Bucle principal y lógica de captura.
-    *   `zeromq_client.py`: Cliente ZeroMQ (TCP directo).
-    *   `mqtt_client.py`: Cliente MQTT.
-    *   `rabbitmq_client.py`: Cliente HTTP para RabbitMQ.
-    *   `telegram.py`: Envío de notificaciones a Telegram.
 *   **`servidor/`**: Contiene los scripts para el servidor VPS.
-    *   `zeromq_server.py`: Servidor TCP para ZeroMQ.
-    *   `rabbitmq_gateway.py`: Pasarela HTTP con Flask y pika.
-    *   `metricas_listener.py`: Receptor de métricas de latencia.
-
+    *   `monitor_cultivos.py`: Servidor TCP para ZeroMQ.
+      
 ## ⚙️ Requisitos y Tecnologías
 
 *   MicroPython en ESP32-S3.
