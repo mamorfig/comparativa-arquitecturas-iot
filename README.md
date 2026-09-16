@@ -8,7 +8,7 @@ Este repositorio contiene el código fuente completo del Trabajo Fin de Máster 
 
 *   **`esp32`**: Contiene el firmware para el ESP32-S3.
     *   `main.py`: Bucle principal y lógica de captura.
-*   **`servidor`**: Contiene los scripts para el servidor VPS.
+*   **`servidor`**: Contiene el script para el servidor VPS.
     *   `monitor_cultivos.py`: Servidor Flask que recibe los datos e imagenes.
       
 ## ⚙️ Requisitos y Tecnologías
