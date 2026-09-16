@@ -1,8 +1,6 @@
 # comparativa-arquitecturas-iot
 codigo fuente comparativa-arquitecturas-iot
-# TFM: Comparativa de Arquitecturas IoT para Agricultura de Precisión
-
-Este repositorio contiene el código fuente completo del Trabajo Fin de Máster (TFM) titulado **"Comparativa de arquitecturas de mensajería IoT (broker vs. brokerless) para la transmisión de datos y análisis de imágenes en agricultura de precisión de bajo coste"**.
+# Comparativa de Arquitecturas IoT para Agricultura de Precisión
 
 ## 📁 Estructura del Código
 
